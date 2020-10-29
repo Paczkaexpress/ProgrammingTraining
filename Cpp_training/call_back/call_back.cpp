@@ -26,14 +26,6 @@ struct MouseAction
     bool buttonRightClick;
 };
 
-enum class Handlers
-{
-    move_x_h,
-    move_y_h,
-    left_button_h, 
-    right_button_h 
-};
-
 void simpleCallBackTest()
 {
     std::cout<<"## Simple call-back example ##"<<std::endl;
@@ -99,13 +91,13 @@ void mouseLeftClickAction(MouseAction &mouse)
 void fcnPointerArrayCallBack()
 {
     std::cout<<"## Function array ##"<<std::endl;
-    MouseAction mouse = {0,0, true, false};
+    MouseAction mouse = {2,4, true, false};
 
     void (*fcnPtr[])(MouseAction &mouse) = 
         {(*mouseMoveXAction), (*mouseMoveYAction), 
         (*mouseRightClickAction), (*mouseLeftClickAction)};
 
-    for(auto i = Handlers::move_x_h; i < Handlers::right_button_h, i++)
+    for(int i = 0; i < 4; ++i)
     {
         (*fcnPtr[static_cast<int>(i)])(mouse);
     }
