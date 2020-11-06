@@ -1,0 +1,2 @@
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-oesdk-linux/bin/ar qc libcall_back.a  CMakeFiles/call_back.dir/call_back.cpp.o
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-oesdk-linux/bin/ranlib libcall_back.a

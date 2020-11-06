@@ -1,0 +1,2 @@
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-oesdk-linux/bin/ar qc liblist.a  CMakeFiles/list.dir/list.cpp.o
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-oesdk-linux/bin/ranlib liblist.a

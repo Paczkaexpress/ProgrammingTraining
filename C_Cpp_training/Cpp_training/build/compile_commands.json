@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/tests/list_test",
+  "command": "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu     -O2 -I=/opt/nokia/include -g   -o CMakeFiles/list-test_lib.dir/list.cpp.o -c /home/paczynsk/src/ProgrammingTraining/Cpp_training/tests/list_test/list.cpp",
+  "file": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/tests/list_test/list.cpp"
+},
+{
+  "directory": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/tests/list_test",
+  "command": "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu     -O2 -I=/opt/nokia/include -g   -o CMakeFiles/list_tests.dir/list.cpp.o -c /home/paczynsk/src/ProgrammingTraining/Cpp_training/tests/list_test/list.cpp",
+  "file": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/tests/list_test/list.cpp"
+},
+{
+  "directory": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/call_back",
+  "command": "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu     -O2 -I=/opt/nokia/include -g   -o CMakeFiles/CallBackTests.dir/call_back.cpp.o -c /home/paczynsk/src/ProgrammingTraining/Cpp_training/call_back/call_back.cpp",
+  "file": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/call_back/call_back.cpp"
+},
+{
+  "directory": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/call_back",
+  "command": "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu     -O2 -I=/opt/nokia/include -g   -o CMakeFiles/call_back.dir/call_back.cpp.o -c /home/paczynsk/src/ProgrammingTraining/Cpp_training/call_back/call_back.cpp",
+  "file": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/call_back/call_back.cpp"
+},
+{
+  "directory": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/list_implementation",
+  "command": "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu     -O2 -I=/opt/nokia/include -g   -o CMakeFiles/list_training.dir/list.cpp.o -c /home/paczynsk/src/ProgrammingTraining/Cpp_training/list_implementation/list.cpp",
+  "file": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/list_implementation/list.cpp"
+},
+{
+  "directory": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/list_implementation",
+  "command": "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu     -O2 -I=/opt/nokia/include -g   -o CMakeFiles/list.dir/list.cpp.o -c /home/paczynsk/src/ProgrammingTraining/Cpp_training/list_implementation/list.cpp",
+  "file": "/home/paczynsk/src/ProgrammingTraining/Cpp_training/list_implementation/list.cpp"
+}
+]

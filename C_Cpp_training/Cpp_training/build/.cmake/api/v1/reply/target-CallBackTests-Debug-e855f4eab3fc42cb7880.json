@@ -1,0 +1,99 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "call_back/CallBackTests"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable"
+		],
+		"files" : 
+		[
+			"call_back/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -O2 -I=/opt/nokia/include -g  "
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu"
+			}
+		}
+	],
+	"id" : "CallBackTests::@9c211802d08b4bc1e86c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O2 -I=/opt/nokia/include -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-O1 -Wl,--hash-style=gnu -Wl,-rpath=/opt/nokia/lib64/ -Wl,-rpath-link=/opt/nokia/lib64",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu"
+		}
+	},
+	"name" : "CallBackTests",
+	"nameOnDisk" : "CallBackTests",
+	"paths" : 
+	{
+		"build" : "call_back",
+		"source" : "call_back"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "call_back/call_back.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

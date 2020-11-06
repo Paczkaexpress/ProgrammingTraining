@@ -1,0 +1,464 @@
+The target system is: Linux -  - x86_64
+The host system is: Linux - 5.4.0-52-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/clang-10 
+Build flags: ;-O2;-I=/opt/nokia/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/3.16.5/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++ -m64;--sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu
+Build flags: ;-O2;-I=/opt/nokia/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/3.16.5/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9d433/fast && /usr/bin/gmake -f CMakeFiles/cmTC_9d433.dir/build.make CMakeFiles/cmTC_9d433.dir/build
+gmake[1]: Entering directory '/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d433.dir/testCCompiler.c.o
+/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/clang-10 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu   -O2 -I=/opt/nokia/include    -o CMakeFiles/cmTC_9d433.dir/testCCompiler.c.o   -c /home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9d433
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d433.dir/link.txt --verbose=1
+/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/clang-10 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu  -O2 -I=/opt/nokia/include   -Wl,-O1 -Wl,--hash-style=gnu -Wl,-rpath=/opt/nokia/lib64/ -Wl,-rpath-link=/opt/nokia/lib64  CMakeFiles/cmTC_9d433.dir/testCCompiler.c.o  -o cmTC_9d433 
+gmake[1]: Leaving directory '/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c0908/fast && /usr/bin/gmake -f CMakeFiles/cmTC_c0908.dir/build.make CMakeFiles/cmTC_c0908.dir/build
+gmake[1]: Entering directory '/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o
+/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/clang-10 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu   -O2 -I=/opt/nokia/include    -v -o CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o   -c /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang version 10.0.0 (ssh://gitlab@gitlab.dynamic.nsn-net.net/clang/llvm-project d32170dbd5b0d54436537b6b75beaf44324e0c28)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin
+Found candidate GCC installation: /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/gcc/x86_64-redhat-linux/9
+Found candidate GCC installation: /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/gcc/x86_64-redhat-linux/9
+Found candidate GCC installation: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1
+Selected GCC installation: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/clang-10" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=none -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/clang/10.0.0 -I =/opt/nokia/include -isysroot /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu -I/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include -I/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include -I/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include -I/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include -I/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include -internal-isystem /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/local/include -internal-isystem /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/clang/10.0.0/include -internal-externc-isystem /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/include -internal-externc-isystem /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include -O2 -fdebug-compilation-dir /home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -vectorize-loops -vectorize-slp -faddrsig -o CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o -x c /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/local/include"
+ignoring nonexistent directory "/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/include"
+ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/clang/10.0.0/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include
+End of search list.
+Linking C executable cmTC_c0908
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0908.dir/link.txt --verbose=1
+/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/clang-10 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu  -O2 -I=/opt/nokia/include   -Wl,-O1 -Wl,--hash-style=gnu -Wl,-rpath=/opt/nokia/lib64/ -Wl,-rpath-link=/opt/nokia/lib64 -v CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o  -o cmTC_c0908 
+clang version 10.0.0 (ssh://gitlab@gitlab.dynamic.nsn-net.net/clang/llvm-project d32170dbd5b0d54436537b6b75beaf44324e0c28)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin
+Found candidate GCC installation: /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/gcc/x86_64-redhat-linux/9
+Found candidate GCC installation: /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/gcc/x86_64-redhat-linux/9
+Found candidate GCC installation: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1
+Selected GCC installation: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/bin/ld" --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu -pie -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0908 /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64/Scrt1.o /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64/crti.o /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtbeginS.o -L/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1 -L/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64 -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64 -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//usr/lib/../lib64 -L/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//usr/lib -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64 -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7 -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7 -O1 --hash-style=gnu -rpath=/opt/nokia/lib64/ -rpath-link=/opt/nokia/lib64 CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtendS.o /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64/crtn.o
+gmake[1]: Leaving directory '/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/clang/10.0.0/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include]
+  end of search list found
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/clang/10.0.0/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/clang/10.0.0/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include]
+  implicit include dirs: [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/clang/10.0.0/include;/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_c0908/fast && /usr/bin/gmake -f CMakeFiles/cmTC_c0908.dir/build.make CMakeFiles/cmTC_c0908.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/clang-10 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu   -O2 -I=/opt/nokia/include    -v -o CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o   -c /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 10.0.0 (ssh://gitlab@gitlab.dynamic.nsn-net.net/clang/llvm-project d32170dbd5b0d54436537b6b75beaf44324e0c28)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin]
+  ignore line: [Found candidate GCC installation: /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/gcc/x86_64-redhat-linux/9]
+  ignore line: [Found candidate GCC installation: /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/gcc/x86_64-redhat-linux/9]
+  ignore line: [Found candidate GCC installation: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1]
+  ignore line: [Selected GCC installation: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/clang-10" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=none -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/clang/10.0.0 -I =/opt/nokia/include -isysroot /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu -I/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include -I/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include -I/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include -I/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include -I/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include -internal-isystem /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/local/include -internal-isystem /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/clang/10.0.0/include -internal-externc-isystem /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/include -internal-externc-isystem /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include -O2 -fdebug-compilation-dir /home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -vectorize-loops -vectorize-slp -faddrsig -o CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o -x c /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/clang/10.0.0/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_c0908]
+  ignore line: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0908.dir/link.txt --verbose=1]
+  ignore line: [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/clang-10 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu  -O2 -I=/opt/nokia/include   -Wl -O1 -Wl --hash-style=gnu -Wl -rpath=/opt/nokia/lib64/ -Wl -rpath-link=/opt/nokia/lib64 -v CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o  -o cmTC_c0908 ]
+  ignore line: [clang version 10.0.0 (ssh://gitlab@gitlab.dynamic.nsn-net.net/clang/llvm-project d32170dbd5b0d54436537b6b75beaf44324e0c28)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin]
+  ignore line: [Found candidate GCC installation: /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/gcc/x86_64-redhat-linux/9]
+  ignore line: [Found candidate GCC installation: /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/gcc/x86_64-redhat-linux/9]
+  ignore line: [Found candidate GCC installation: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1]
+  ignore line: [Selected GCC installation: /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/bin/ld" --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu -pie -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0908 /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64/Scrt1.o /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64/crti.o /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtbeginS.o -L/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1 -L/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64 -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64 -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//usr/lib/../lib64 -L/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//usr/lib -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64 -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7 -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7 -O1 --hash-style=gnu -rpath=/opt/nokia/lib64/ -rpath-link=/opt/nokia/lib64 CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtendS.o /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64/crtn.o]
+    arg [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/bin/ld] ==> ignore
+    arg [--sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c0908] ==> ignore
+    arg [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64/Scrt1.o] ==> ignore
+    arg [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64/crti.o] ==> ignore
+    arg [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtbeginS.o] ==> ignore
+    arg [-L/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1] ==> dir [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1]
+    arg [-L/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64] ==> dir [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//usr/lib/../lib64] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//usr/lib/../lib64]
+    arg [-L/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib] ==> dir [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//usr/lib] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//usr/lib]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-rpath=/opt/nokia/lib64/] ==> ignore
+    arg [-rpath-link=/opt/nokia/lib64] ==> ignore
+    arg [CMakeFiles/cmTC_c0908.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtendS.o] ==> ignore
+    arg [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1] ==> [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/lib/gcc/x86_64-linux-gnu/9.3.1]
+  collapse library dir [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64] ==> [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/lib64]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib/../lib64] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib64]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//usr/lib/../lib64] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib64]
+  collapse library dir [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib] ==> [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/lib]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//lib] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu//usr/lib] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/lib/gcc/x86_64-linux-gnu/9.3.1;/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/lib64;/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib64;/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib64;/home/paczynsk/src/vl1/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/lib;/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib;/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_65892/fast && /usr/bin/gmake -f CMakeFiles/cmTC_65892.dir/build.make CMakeFiles/cmTC_65892.dir/build
+gmake[1]: Entering directory '/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65892.dir/testCXXCompiler.cxx.o
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu    -O2 -I=/opt/nokia/include    -o CMakeFiles/cmTC_65892.dir/testCXXCompiler.cxx.o -c /home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_65892
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65892.dir/link.txt --verbose=1
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu   -O2 -I=/opt/nokia/include   -Wl,-O1 -Wl,--hash-style=gnu -Wl,-rpath=/opt/nokia/lib64/ -Wl,-rpath-link=/opt/nokia/lib64  CMakeFiles/cmTC_65892.dir/testCXXCompiler.cxx.o  -o cmTC_65892 
+gmake[1]: Leaving directory '/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_db844/fast && /usr/bin/gmake -f CMakeFiles/cmTC_db844.dir/build.make CMakeFiles/cmTC_db844.dir/build
+gmake[1]: Entering directory '/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu    -O2 -I=/opt/nokia/include    -v -o CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o -c /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++.orig
+Target: x86_64-linux-gnu
+Configured with: /builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/shared/gcc-9.3.1-20200408/configure --build=x86_64-build-linux-gnu --target=x86_64-linux-gnu --prefix=/builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/x86_64/toolchain --disable-nls --disable-bootstrap --with-sysroot=/builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/x86_64/toolchain/glibc/x86_64-linux-gnu --enable-languages=c,c++ --with-gmp=/usr --with-mpfr=/usr --with-mpc=/usr --enable-shared --disable-static --with-pkgversion=distro- --with-arch=core2 --disable-multilib
+Thread model: posix
+gcc version 9.3.1 20200408 (Red Hat 9.3.1-2) (distro-) 
+COLLECT_GCC_OPTIONS='-m64' '-O2' '-I' '=/opt/nokia/include' '-v' '-o' 'CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=core2'
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/cc1plus -quiet -v -I =/opt/nokia/include -iprefix /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/ -isysroot /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu -D_GNU_SOURCE /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -m64 -mtune=generic -march=core2 -auxbase-strip CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o -O2 -version -o /tmp/ccuStLXZ.s
+GNU C++14 (distro-) version 9.3.1 20200408 (Red Hat 9.3.1-2) (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.1 20200408 (Red Hat 9.3.1-2), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1"
+ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/x86_64-linux-gnu"
+ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/backward"
+ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/include"
+ignoring nonexistent directory "/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/local/include"
+ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/include-fixed"
+ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include"
+ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/x86_64-linux-gnu
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/backward
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/include-fixed
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include
+ /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include
+End of search list.
+GNU C++14 (distro-) version 9.3.1 20200408 (Red Hat 9.3.1-2) (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.1 20200408 (Red Hat 9.3.1-2), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e9ccaf6235f17f9960213ad2fd51cbb5
+COLLECT_GCC_OPTIONS='-m64' '-O2' '-I' '=/opt/nokia/include' '-v' '-o' 'CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=core2'
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/bin/as -v -I =/opt/nokia/include --64 -o CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccuStLXZ.s
+GNU assembler version 2.32 (x86_64-linux-gnu) using BFD version version 2.32-31.wf31
+COMPILER_PATH=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/bin/
+LIBRARY_PATH=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/
+COLLECT_GCC_OPTIONS='-m64' '-O2' '-I' '=/opt/nokia/include' '-v' '-o' 'CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=core2'
+Linking CXX executable cmTC_db844
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db844.dir/link.txt --verbose=1
+/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu   -O2 -I=/opt/nokia/include   -Wl,-O1 -Wl,--hash-style=gnu -Wl,-rpath=/opt/nokia/lib64/ -Wl,-rpath-link=/opt/nokia/lib64 -v CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_db844 
+Using built-in specs.
+COLLECT_GCC=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++.orig
+COLLECT_LTO_WRAPPER=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: /builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/shared/gcc-9.3.1-20200408/configure --build=x86_64-build-linux-gnu --target=x86_64-linux-gnu --prefix=/builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/x86_64/toolchain --disable-nls --disable-bootstrap --with-sysroot=/builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/x86_64/toolchain/glibc/x86_64-linux-gnu --enable-languages=c,c++ --with-gmp=/usr --with-mpfr=/usr --with-mpc=/usr --enable-shared --disable-static --with-pkgversion=distro- --with-arch=core2 --disable-multilib
+Thread model: posix
+gcc version 9.3.1 20200408 (Red Hat 9.3.1-2) (distro-) 
+COMPILER_PATH=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/bin/
+LIBRARY_PATH=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/
+COLLECT_GCC_OPTIONS='-m64' '-O2' '-I' '=/opt/nokia/include' '-v' '-o' 'cmTC_db844' '-shared-libgcc' '-mtune=generic' '-march=core2'
+ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/collect2 -plugin /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/liblto_plugin.so -plugin-opt=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKyX1ao.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --no-add-needed --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_db844 /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/crt1.o /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/crti.o /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtbegin.o -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1 -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64 -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64 -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/../lib64 -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib -O1 --hash-style=gnu -rpath=/opt/nokia/lib64/ -rpath-link=/opt/nokia/lib64 CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtend.o /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-m64' '-O2' '-I' '=/opt/nokia/include' '-v' '-o' 'cmTC_db844' '-shared-libgcc' '-mtune=generic' '-march=core2'
+gmake[1]: Leaving directory '/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/x86_64-linux-gnu]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/backward]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/include-fixed]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include]
+    add: [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include]
+  end of search list found
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/include/c++/9.3.1]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/x86_64-linux-gnu] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/include/c++/9.3.1/x86_64-linux-gnu]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/backward] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/include/c++/9.3.1/backward]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/gcc/x86_64-linux-gnu/9.3.1/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/include-fixed] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/gcc/x86_64-linux-gnu/9.3.1/include-fixed]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/include]
+  collapse include dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include]
+  implicit include dirs: [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/include/c++/9.3.1;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/include/c++/9.3.1/x86_64-linux-gnu;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/include/c++/9.3.1/backward;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/gcc/x86_64-linux-gnu/9.3.1/include;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/gcc/x86_64-linux-gnu/9.3.1/include-fixed;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/include;/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_db844/fast && /usr/bin/gmake -f CMakeFiles/cmTC_db844.dir/build.make CMakeFiles/cmTC_db844.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/paczynsk/src/ProgrammingTraining/Cpp_training/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu    -O2 -I=/opt/nokia/include    -v -o CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o -c /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++.orig]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: /builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/shared/gcc-9.3.1-20200408/configure --build=x86_64-build-linux-gnu --target=x86_64-linux-gnu --prefix=/builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/x86_64/toolchain --disable-nls --disable-bootstrap --with-sysroot=/builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/x86_64/toolchain/glibc/x86_64-linux-gnu --enable-languages=c c++ --with-gmp=/usr --with-mpfr=/usr --with-mpc=/usr --enable-shared --disable-static --with-pkgversion=distro- --with-arch=core2 --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.1 20200408 (Red Hat 9.3.1-2) (distro-) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-m64' '-O2' '-I' '=/opt/nokia/include' '-v' '-o' 'CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=core2']
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/cc1plus -quiet -v -I =/opt/nokia/include -iprefix /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/ -isysroot /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu -D_GNU_SOURCE /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -m64 -mtune=generic -march=core2 -auxbase-strip CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o -O2 -version -o /tmp/ccuStLXZ.s]
+  ignore line: [GNU C++14 (distro-) version 9.3.1 20200408 (Red Hat 9.3.1-2) (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.1 20200408 (Red Hat 9.3.1-2)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1"]
+  ignore line: [ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/x86_64-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/backward"]
+  ignore line: [ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/opt/nokia/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/pstl/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/opt/intel/system_studio_2019/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/x86_64-linux-gnu]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include/c++/9.3.1/backward]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/include-fixed]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/include]
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (distro-) version 9.3.1 20200408 (Red Hat 9.3.1-2) (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.1 20200408 (Red Hat 9.3.1-2)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e9ccaf6235f17f9960213ad2fd51cbb5]
+  ignore line: [COLLECT_GCC_OPTIONS='-m64' '-O2' '-I' '=/opt/nokia/include' '-v' '-o' 'CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=core2']
+  ignore line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/bin/as -v -I =/opt/nokia/include --64 -o CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccuStLXZ.s]
+  ignore line: [GNU assembler version 2.32 (x86_64-linux-gnu) using BFD version version 2.32-31.wf31]
+  ignore line: [COMPILER_PATH=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-m64' '-O2' '-I' '=/opt/nokia/include' '-v' '-o' 'CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=core2']
+  ignore line: [Linking CXX executable cmTC_db844]
+  ignore line: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db844.dir/link.txt --verbose=1]
+  ignore line: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++   -m64 --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu   -O2 -I=/opt/nokia/include   -Wl -O1 -Wl --hash-style=gnu -Wl -rpath=/opt/nokia/lib64/ -Wl -rpath-link=/opt/nokia/lib64 -v CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_db844 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/x86_64-linux-gnu-g++.orig]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: /builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/shared/gcc-9.3.1-20200408/configure --build=x86_64-build-linux-gnu --target=x86_64-linux-gnu --prefix=/builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/x86_64/toolchain --disable-nls --disable-bootstrap --with-sysroot=/builds/waders-infra/waders-kickstarts/waders-toolchain/hammer-toolchain/work/x86_64/toolchain/glibc/x86_64-linux-gnu --enable-languages=c c++ --with-gmp=/usr --with-mpfr=/usr --with-mpc=/usr --enable-shared --disable-static --with-pkgversion=distro- --with-arch=core2 --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.1 20200408 (Red Hat 9.3.1-2) (distro-) ]
+  ignore line: [COMPILER_PATH=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/../lib64/:/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/:/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-m64' '-O2' '-I' '=/opt/nokia/include' '-v' '-o' 'cmTC_db844' '-shared-libgcc' '-mtune=generic' '-march=core2']
+  link line: [ /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/collect2 -plugin /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/liblto_plugin.so -plugin-opt=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKyX1ao.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu --no-add-needed --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_db844 /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/crt1.o /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/crti.o /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtbegin.o -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1 -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64 -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64 -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/../lib64 -L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib -L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib -O1 --hash-style=gnu -rpath=/opt/nokia/lib64/ -rpath-link=/opt/nokia/lib64 CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtend.o /home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/crtn.o]
+    arg [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../libexec/gcc/x86_64-linux-gnu/9.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKyX1ao.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_db844] ==> ignore
+    arg [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/crti.o] ==> ignore
+    arg [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtbegin.o] ==> ignore
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/../lib64] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/../lib64]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib]
+    arg [-L/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib] ==> dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-rpath=/opt/nokia/lib64/] ==> ignore
+    arg [-rpath-link=/opt/nokia/lib64] ==> ignore
+    arg [CMakeFiles/cmTC_db844.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/crtend.o] ==> ignore
+    arg [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/gcc/x86_64-linux-gnu/9.3.1]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/gcc]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib/../lib64] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/lib64]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib/../lib64] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib64]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib/../lib64] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib64]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/bin/../lib/gcc/x86_64-linux-gnu/9.3.1/../../../../x86_64-linux-gnu/lib] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/lib]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib]
+  collapse library dir [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib] ==> [/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/gcc/x86_64-linux-gnu/9.3.1;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/lib/gcc;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/lib64;/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib64;/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib64;/home/paczynsk/src/sdk/sysroots/x86_64-oesdk-linux/usr/x86_64-linux-gnu/lib;/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/lib;/home/paczynsk/src/sdk/sysroots/x86_64-linux-gnu/usr/lib]
+  implicit fwks: []
+
+
