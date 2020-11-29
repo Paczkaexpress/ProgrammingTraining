@@ -1,0 +1,76 @@
+def_h1 
+{
+    color: red;
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td[id="style_specifier_id"]{
+    color: pink;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#single_cell_id{
+    color: blueviolet;
+}
+
+.button_hover_test{
+    color: green;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+}
+
+
+.button_hover_test:hover{
+    color: red;
+}
+
+.container_class{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_class > div{
+    background-color: green;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+.grid_class{
+    background-color: green;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+}
+
+.grid_item_class{
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bootstrap_row > div {
+    padding: 20px;
+    background-color: teal;
+    border: 2px solid black;
+}
+
+.mobile_row > div {
+    padding: 20px;
+    background-color: teal;
+    border: 2px solid black;
+}
